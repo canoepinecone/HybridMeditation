@@ -13,6 +13,7 @@
 		728DBD572043A27E00FA4B45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728DBD552043A27E00FA4B45 /* Main.storyboard */; };
 		728DBD592043A27E00FA4B45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 728DBD582043A27E00FA4B45 /* Assets.xcassets */; };
 		728DBD5C2043A27E00FA4B45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728DBD5A2043A27E00FA4B45 /* LaunchScreen.storyboard */; };
+		728DBD642043B68500FA4B45 /* Attribution in Resources */ = {isa = PBXBuildFile; fileRef = 728DBD632043B68500FA4B45 /* Attribution */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		728DBD582043A27E00FA4B45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		728DBD5B2043A27E00FA4B45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		728DBD5D2043A27E00FA4B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		728DBD632043B68500FA4B45 /* Attribution */ = {isa = PBXFileReference; lastKnownFileType = text; path = Attribution; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				728DBD582043A27E00FA4B45 /* Assets.xcassets */,
 				728DBD5A2043A27E00FA4B45 /* LaunchScreen.storyboard */,
 				728DBD5D2043A27E00FA4B45 /* Info.plist */,
+				728DBD632043B68500FA4B45 /* Attribution */,
 			);
 			path = "Hybrid Meditation";
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				728DBD642043B68500FA4B45 /* Attribution in Resources */,
 				728DBD5C2043A27E00FA4B45 /* LaunchScreen.storyboard in Resources */,
 				728DBD592043A27E00FA4B45 /* Assets.xcassets in Resources */,
 				728DBD572043A27E00FA4B45 /* Main.storyboard in Resources */,
