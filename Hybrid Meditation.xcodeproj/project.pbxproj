@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7218635D2044C0E3006F89D0 /* meditations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7218635B2044C0E3006F89D0 /* meditations.xcdatamodeld */; };
+		721863602044C1A0006F89D0 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7218635F2044C1A0006F89D0 /* StartViewController.swift */; };
 		728DBD502043A27E00FA4B45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728DBD4F2043A27E00FA4B45 /* AppDelegate.swift */; };
-		728DBD522043A27E00FA4B45 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728DBD512043A27E00FA4B45 /* FirstViewController.swift */; };
-		728DBD542043A27E00FA4B45 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728DBD532043A27E00FA4B45 /* SecondViewController.swift */; };
 		728DBD572043A27E00FA4B45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728DBD552043A27E00FA4B45 /* Main.storyboard */; };
 		728DBD592043A27E00FA4B45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 728DBD582043A27E00FA4B45 /* Assets.xcassets */; };
 		728DBD5C2043A27E00FA4B45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728DBD5A2043A27E00FA4B45 /* LaunchScreen.storyboard */; };
@@ -17,10 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7218635C2044C0E3006F89D0 /* meditations.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = meditations.xcdatamodel; sourceTree = "<group>"; };
+		7218635F2044C1A0006F89D0 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		728DBD4C2043A27E00FA4B45 /* Hybrid Meditation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hybrid Meditation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		728DBD4F2043A27E00FA4B45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		728DBD512043A27E00FA4B45 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		728DBD532043A27E00FA4B45 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		728DBD562043A27E00FA4B45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		728DBD582043A27E00FA4B45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		728DBD5B2043A27E00FA4B45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -39,6 +39,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		721863372044C032006F89D0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7218635B2044C0E3006F89D0 /* meditations.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7218635E2044C12A006F89D0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7218635F2044C1A0006F89D0 /* StartViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		728DBD432043A27E00FA4B45 = {
 			isa = PBXGroup;
 			children = (
@@ -58,9 +74,9 @@
 		728DBD4E2043A27E00FA4B45 /* Hybrid Meditation */ = {
 			isa = PBXGroup;
 			children = (
+				7218635E2044C12A006F89D0 /* Controllers */,
+				721863372044C032006F89D0 /* Models */,
 				728DBD4F2043A27E00FA4B45 /* AppDelegate.swift */,
-				728DBD512043A27E00FA4B45 /* FirstViewController.swift */,
-				728DBD532043A27E00FA4B45 /* SecondViewController.swift */,
 				728DBD552043A27E00FA4B45 /* Main.storyboard */,
 				728DBD582043A27E00FA4B45 /* Assets.xcassets */,
 				728DBD5A2043A27E00FA4B45 /* LaunchScreen.storyboard */,
@@ -143,9 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				728DBD542043A27E00FA4B45 /* SecondViewController.swift in Sources */,
 				728DBD502043A27E00FA4B45 /* AppDelegate.swift in Sources */,
-				728DBD522043A27E00FA4B45 /* FirstViewController.swift in Sources */,
+				7218635D2044C0E3006F89D0 /* meditations.xcdatamodeld in Sources */,
+				721863602044C1A0006F89D0 /* StartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +302,7 @@
 				DEVELOPMENT_TEAM = Q5QXR8QLH2;
 				INFOPLIST_FILE = "Hybrid Meditation/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.melinda.Hybrid-Meditation";
+				PRODUCT_BUNDLE_IDENTIFIER = com.melinda.HybridMeditation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -301,7 +317,7 @@
 				DEVELOPMENT_TEAM = Q5QXR8QLH2;
 				INFOPLIST_FILE = "Hybrid Meditation/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.melinda.Hybrid-Meditation";
+				PRODUCT_BUNDLE_IDENTIFIER = com.melinda.HybridMeditation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -330,6 +346,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7218635B2044C0E3006F89D0 /* meditations.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7218635C2044C0E3006F89D0 /* meditations.xcdatamodel */,
+			);
+			currentVersion = 7218635C2044C0E3006F89D0 /* meditations.xcdatamodel */;
+			path = meditations.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 728DBD442043A27E00FA4B45 /* Project object */;
 }
